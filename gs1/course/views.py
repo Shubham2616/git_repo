@@ -17,3 +17,8 @@ def learn_a(request):
 def learn_f(request):
     a = "Shubham"
     return HttpResponse(f"String Formating : {a}")
+
+def learn_s(request):
+    my_list = [{'id':101, 'name':'Shubham'},{'id':102, 'name':'vipul'}]
+    my_list = [{'name':i['name'] } for i in my_list]
+    print(my_list)

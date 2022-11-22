@@ -23,4 +23,5 @@ urlpatterns = [
     path('learnp/',views.learn_p),
     path('learna/',views.learn_a),
     path('learnf/',views.learn_f),
+    path('learns/',views.learn_s),
 ]
